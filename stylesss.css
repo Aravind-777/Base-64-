@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("cyber.jpg");
+    background-size:cover;
+}
+form{
+    font-family: 'Pollins',sans-serif;
+    border:2px solid white;
+    padding: 5%;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    border-radius:20% ;
+    background-color: white;
+}
+.Password-head h1{
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.checkboxes{
+    display: flex; 
+    gap: 10px;
+    margin-left: 20px; 
+}
+@media only screen and(mix-width: 567px){
+    form{
+        left:10%;
+    }
+    .Password-head h1{
+        left:3%;
+    }
+}
